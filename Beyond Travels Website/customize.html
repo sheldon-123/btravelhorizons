@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customize Your Trip | Beyond Travel Horizons</title>
+  <link rel="stylesheet" href="customize.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="https://i.postimg.cc/Ls3gmD1f/Blue-Orange-Playful-Tour-packages-Instagram-Post-removebg-preview.png" alt="Beyond Travel Horizons Logo" />
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Destinations</a>
+          <ul class="dropdown-content">
+            <li><a href="domestic.html">Domestic</a></li>
+            <li><a href="international.html">International</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <a href="customize.html" class="btn-custom active">Customize Trip</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="background-image: url('https://i.postimg.cc/Gh0KQqZH/customize-banner.jpg');">
+    <h1>Design Your Dream Journey</h1>
+  </section>
+
+  <!-- FORM SECTION -->
+  <section class="customize-section">
+    <div class="form-wrapper">
+      <h2>Customize Your Trip</h2>
+      <p>Tell us what kind of adventure you're looking for, and we'll make it happen. This form helps us tailor every detail to your travel style.</p>
+      
+      <form action="https://formspree.io/f/xeogdoan" method="POST">
+        <div class="input-row">
+          <input type="text" name="first_name" placeholder="First Name" required>
+          <input type="text" name="last_name" placeholder="Last Name" required>
+        </div>
+        <div class="input-row">
+          <input type="email" name="email" placeholder="Email Address" required>
+          <input type="tel" name="phone" placeholder="Phone Number" required>
+        </div>
+        <div class="input-row">
+          <input type="text" name="nationality" placeholder="Your Nationality" required>
+          <input type="number" name="travelers" placeholder="No. of Travelers" required>
+        </div>
+        <div class="input-row">
+          <input type="date" name="start_date" required>
+          <input type="date" name="end_date" required>
+        </div>
+        <textarea name="trip_details" rows="6" placeholder="What kind of experience are you looking for? (e.g., Safari + Beach, Family trip, Honeymoon, Budget range...)" required></textarea>
+        <button type="submit">Send Request</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Beyond Travel Horizons</h3>
+        <p>We help you craft extraordinary journeys across the globe. Travel with purpose, style, and inspiration.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="customize.html">Customize Trip</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Top Destinations</h3>
+        <ul>
+          <li><a href="#">Kenya</a></li>
+          <li><a href="#">Tanzania</a></li>
+          <li><a href="#">Bali</a></li>
+          <li><a href="#">Paris</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Get travel tips and special offers directly to your inbox.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom-container">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="footer-bottom">&copy; 2025 Beyond Travel Horizons. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
